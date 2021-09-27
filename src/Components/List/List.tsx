@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { api } from '../../api';
 
-interface Movies {
+interface AllMovies {
     title: string;
     original_title_romanised: string;
     description: string;
@@ -9,12 +9,12 @@ interface Movies {
 }
 
 export function List() {
-    const [movies, setMovies] = useState<Movies[]>([])
+    const [allMovies, setAllMovies] = useState<AllMovies[]>([])
 
     useEffect(() => {
         api.get('/films').then(response => {
-            setMovies(response.data)
-            console.log(movies)
+            setAllMovies(response.data)
+            console.log(allMovies)
         })
     }, [])
 
@@ -23,7 +23,7 @@ export function List() {
         <div>
             <h1>STUDIO GHIBLI</h1>
             <section className="movies-list">{
-                movies.map((movie, i) => (
+                allMovies.map((movie, i) => (
                 <p key={i}>{movie.title}</p>
                 ))
                 }</section>
