@@ -23,8 +23,8 @@ export function List() {
         <div>
             <h1>STUDIO GHIBLI</h1>
             <section className="movies-list">{
-                movies.map((movie) => (
-                <p>{movie.title}</p>
+                movies.map((movie, i) => (
+                <p key={i}>{movie.title}</p>
                 ))
                 }</section>
         </div>
