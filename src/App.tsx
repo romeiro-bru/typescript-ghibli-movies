@@ -1,11 +1,11 @@
 import './App.css';
-import { List } from './Components/List/List';
-import './Components/List/List.tsx';
+import { MoviesList } from './Components/MoviesList/MoviesList';
+import './Components/MoviesList/MoviesList.tsx';
 
 function App() {
   return (
     <div className="App">
-      <List />
+      <MoviesList />
     </div>
   );
 }
