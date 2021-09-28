@@ -21,7 +21,7 @@ export function MoviesList() {
         })
     }, [])
 
-    const handleClick = (movie: AllMovies) => {
+    const handleSelectMovie = (movie: AllMovies) => {
     console.log(movie.description)
     }
 
@@ -32,7 +32,7 @@ export function MoviesList() {
             <section className="movies-list">
                 <ul>{
                     allMovies.map((movie, i) => (
-                    <li key={i} onClick={() => handleClick(movie)}>{movie.title}</li>
+                    <li key={i} onClick={() => handleSelectMovie(movie)}>{movie.title}</li>
                        ))
                     }
                 </ul>
