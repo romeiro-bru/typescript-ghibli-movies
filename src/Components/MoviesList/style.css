@@ -5,9 +5,6 @@ h1 {
 .movies-list {
     display: inline-block;
     padding: 0 2.5rem 0 0;
-}
-
-.movies-list ul {
     list-style: none;
 }
 

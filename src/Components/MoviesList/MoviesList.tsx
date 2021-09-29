@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { api } from '../../api';
+import { api } from '../../api/api';
 import './style.css';
 
 interface AllMovies {
@@ -17,26 +17,23 @@ export function MoviesList() {
     useEffect(() => {
         api.get('/films').then(response => {
             setAllMovies(response.data)
-            console.log(response.data)
         })
     }, [])
 
     const handleSelectMovie = (movie: AllMovies) => {
-    console.log(movie.description)
+    console.log(movie.id)
     }
-
+ 
 
     return (
         <div>
             <h1>STUDIO GHIBLI</h1>
-            <section className="movies-list">
-                <ul>{
+                <ul className="movies-list">{
                     allMovies.map((movie, i) => (
                     <li key={i} onClick={() => handleSelectMovie(movie)}>{movie.title}</li>
                        ))
                     }
                 </ul>
-            </section>
         </div>
     )
 }
