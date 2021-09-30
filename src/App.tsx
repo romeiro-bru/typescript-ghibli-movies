@@ -13,7 +13,9 @@ function App() {
           <Route exact path="/">
             <MainPage />
           </Route>
-          <Route path="/:id" component={Movie} />
+          <Route path="/:id">
+            <Movie />
+          </Route>
         </Switch>
       </BrowserRouter>
     </div>

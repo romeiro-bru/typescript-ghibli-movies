@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { api } from '../../api/api';
 import './style.css';
 
-interface AllMovies {
+export interface AllMovies {
   title: string;
   original_title: string;
   original_title_romanised: string;
