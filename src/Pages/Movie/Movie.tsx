@@ -1,5 +1,4 @@
-import { Link, useParams, useHistory } from "react-router-dom"
-import { useEffect } from "react";
+import { useParams, useHistory } from "react-router-dom"
 
 export const Movie = () => {
   const history = useHistory();
