@@ -1,18 +1,19 @@
-import { BrowserRouter, Switch, Route} from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
-import { MoviesList } from './Components/MoviesList/MoviesList';
-import './Components/MoviesList/MoviesList.tsx';
+import { MoviesList } from './Pages/MoviesList/MoviesList';
+import { Movie } from './Pages/Movie/Movie';
 
-const MainPage = () => (
-    <MoviesList />
-  )
-  
+const MainPage = () => <MoviesList />
+
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={MainPage} />
+          <Route exact path="/">
+            <MainPage />
+          </Route>
+          <Route path="/:id" component={Movie} />
         </Switch>
       </BrowserRouter>
     </div>
