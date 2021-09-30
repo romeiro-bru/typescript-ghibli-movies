@@ -1,11 +1,21 @@
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
-import { MoviesList } from './Components/MoviesList/MoviesList';
-import './Components/MoviesList/MoviesList.tsx';
+import { MoviesList } from './Pages/MoviesList/MoviesList';
+import { Movie } from './Pages/Movie/Movie';
+
+const MainPage = () => <MoviesList />
 
 function App() {
   return (
     <div className="App">
-      <MoviesList />
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/">
+            <MainPage />
+          </Route>
+          <Route path="/:id" component={Movie} />
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }
