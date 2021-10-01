@@ -35,7 +35,7 @@ export function MoviesList() {
       <ul className="movies-list">{
         allMovies.map((movie, i) => (
           <li key={i}>
-            <Link to={`/${movie.title}`}>
+            <Link to={`/${movie.id}`}>
               {movie.title}
             </Link>
           </li>
