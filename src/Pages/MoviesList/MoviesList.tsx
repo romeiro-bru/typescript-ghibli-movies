@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { api } from '../../api/api';
 import './style.css';
+import { ghibliImages } from '../../api/api';
 
 export interface AllMovies {
   title: string;
@@ -34,8 +35,10 @@ export function MoviesList() {
       <h1>STUDIO GHIBLI</h1>
       <ul className="movies-list">{
         allMovies.map((movie, i) => (
+
           <Link to={`/${movie.id}`}>
             <li key={i}>
+              <img src={ghibliImages[movie?.title!]} alt="img" />
               {movie.title}
             </li>
           </Link>
