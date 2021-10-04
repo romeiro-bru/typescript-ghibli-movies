@@ -10,12 +10,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Switch>
-          <Route exact path="/">
-            <MainPage />
-          </Route>
-          <Route path="/:id">
-            <Movie />
-          </Route>
+          <Route exact path="/" component={MainPage} />
+          <Route path="/:id" component={Movie} />
         </Switch>
       </BrowserRouter>
     </div>
