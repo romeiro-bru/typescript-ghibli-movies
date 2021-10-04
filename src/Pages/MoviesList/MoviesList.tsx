@@ -34,11 +34,11 @@ export function MoviesList() {
       <h1>STUDIO GHIBLI</h1>
       <ul className="movies-list">{
         allMovies.map((movie, i) => (
-          <li key={i}>
-            <Link to={`/${movie.id}`}>
+          <Link to={`/${movie.id}`}>
+            <li key={i}>
               {movie.title}
-            </Link>
-          </li>
+            </li>
+          </Link>
         ))
       }
       </ul>
