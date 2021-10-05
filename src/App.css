@@ -7,6 +7,6 @@ body {
 }
 
 .App {
-  text-align: center;
-  padding: 0 0 4rem 8rem;
+  text-align: -webkit-center;
+  padding: 0 0 4rem 0rem;
 }
