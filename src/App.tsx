@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <h1>STUDIO GHIBLI</h1>
         <Switch>
           <Route exact path="/" component={MainPage} />
           <Route path="/:id" component={Movie} />
