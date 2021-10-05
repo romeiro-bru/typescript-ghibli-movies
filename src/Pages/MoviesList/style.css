@@ -2,26 +2,35 @@ h1 {
     font-weight: 100;
 }
 
+.movies-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* padding: 0 2rem 0 0; */
+    list-style: none;
+}
+
+.movies-list img {
+    width: 12rem;
+}
+
 .movies-list a {
     text-decoration: none;
     color: lightgray;
 }
 
-.movies-list {
-    display: inline-block;
-    padding: 0 2.5rem 0 0;
-    list-style: none;
-}
 
 .movies-list li {
-    border: 1.5px solid #746286;
-    padding: 0.2rem 1rem; 
-    margin-bottom: 0.5rem;
+    width: min-content;
 }
 
 .movies-list li:hover {
-    border: 1.5px solid #b88de2;
     color: white;
-    background-color: #181620;
     cursor: pointer;
+}
+
+.movies-list img:hover {
+    background-color: rgba(0, 0, 0, 0.438);
+    opacity: 0.4;
+    transition: all 1s;
+    -webkit-transition: all 0.8s;
 }
