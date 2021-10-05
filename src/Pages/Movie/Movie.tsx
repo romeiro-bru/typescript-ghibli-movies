@@ -2,6 +2,9 @@ import { AxiosError } from "axios";
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { api } from '../../api/api';
+import './style.css';
+import { ghibliImages } from '../../api/api';
+
 
 type MovieProps = {
   title: string;
@@ -10,7 +13,6 @@ type MovieProps = {
   description: string;
   release_date: string;
   id: string;
-  prevState: null
 }
 
 export const Movie = () => {
@@ -32,7 +34,10 @@ export const Movie = () => {
   }, [params.id])
 
   return (
-    <div>
+    <div className="movie-details">
+      {ghibliImages[movie?.title!] && (
+        <img src={ghibliImages[movie?.title!]} alt="img" />
+      )}
       <h1>{movie?.title}</h1>
       <h3>{movie?.original_title}</h3>
       <h3>{movie?.original_title_romanised}</h3>

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap');
+
 body {
   background:#0d1117;
   color: lightgrey;
@@ -7,19 +8,5 @@ body {
 
 .App {
   text-align: center;
-}
-
-.movies-list {
-  color: white;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 0 0 4rem 8rem;
 }
