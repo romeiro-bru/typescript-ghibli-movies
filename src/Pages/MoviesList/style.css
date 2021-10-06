@@ -1,23 +1,24 @@
-h1 {
-    font-weight: 100;
-}
-
 .movies-list {
     display: grid;
-    grid-template-columns: auto auto auto;
-    /* padding: 0 2rem 0 0; */
+    grid-template-columns: auto auto auto auto;
+    column-gap: 0.5rem;
     list-style: none;
 }
 
 .movies-list img {
-    width: 12rem;
+    width: 11rem;
+    border-radius: 8px;
+    box-shadow: 3px 3px 12px #000000;
+}
+
+.movies-list p {
+    margin: 0 0 0.5rem 0;
 }
 
 .movies-list a {
     text-decoration: none;
     color: lightgray;
 }
-
 
 .movies-list li {
     width: min-content;
