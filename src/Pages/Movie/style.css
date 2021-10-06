@@ -1,0 +1,46 @@
+.movie-details {
+  width: 80vw;
+  display: flex;
+}
+
+.movie-details img:nth-child(2) {
+  height: 45vh;
+  border-radius: 8px;
+  margin: 0 0.2rem 0 0.7rem;
+  box-shadow: 3px 3px 12px #000000;
+}
+
+.movie-img-title {
+  border-right: 1px solid #6a6c6f;
+  padding-right: 2.3rem;
+}
+
+.movie-img-title h2 {
+  border: 1.3px solid #ed145b;
+  text-align: center;
+  margin-left: 12px;
+  border-radius: 5px;
+}
+
+.movie-img-title span {
+  margin: 0;
+  color: #ed145b;
+}
+.movie-img-title img:first-child {
+  width: 1.7rem;
+  float: left;
+  margin: 0 0 0.2rem 2rem;
+}
+
+.movie-description h3 {
+  margin: 0;
+}
+
+.movie-description h3:nth-child(2) {
+  color: #ed145b;
+}
+
+.movie-description article {
+  margin: 1rem 4rem 0 4rem;
+  text-align: left;
+}

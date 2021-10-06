@@ -1,5 +1,18 @@
-h1 {
-    font-weight: 100;
+.movies-list {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 0.5rem;
+    list-style: none;
+}
+
+.movies-list img {
+    width: 11rem;
+    border-radius: 8px;
+    box-shadow: 3px 3px 12px #000000;
+}
+
+.movies-list p {
+    margin: 0 0 0.5rem 0;
 }
 
 .movies-list a {
@@ -7,21 +20,18 @@ h1 {
     color: lightgray;
 }
 
-.movies-list {
-    display: inline-block;
-    padding: 0 2.5rem 0 0;
-    list-style: none;
-}
-
 .movies-list li {
-    border: 1.5px solid #746286;
-    padding: 0.2rem 1rem; 
-    margin-bottom: 0.5rem;
+    width: min-content;
 }
 
 .movies-list li:hover {
-    border: 1.5px solid #b88de2;
     color: white;
-    background-color: #181620;
     cursor: pointer;
+}
+
+.movies-list img:hover {
+    background-color: rgba(0, 0, 0, 0.438);
+    opacity: 0.4;
+    transition: all 1s;
+    -webkit-transition: all 0.8s;
 }
