@@ -13,6 +13,7 @@ body {
 
 .App h1 {
   margin: 2rem 0 5rem 0;
+  color: lightgrey;;
 }
 
 .App h1:after {
@@ -23,6 +24,10 @@ body {
   left: 45%;
   background-color: #ed145b;
   content: "";
+}
+
+a {
+  text-decoration: none;
 }
 
 h1, h2 {
