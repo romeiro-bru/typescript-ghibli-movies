@@ -5,12 +5,8 @@ import { api } from '../../api/api';
 import './style.css';
 import { ghibliImages } from '../../api/api';
 
-export interface AllMovies {
+interface AllMovies {
   title: string;
-  original_title: string;
-  original_title_romanised: string;
-  description: string;
-  release_date: string;
   id: string
 }
 
@@ -31,18 +27,16 @@ export function MoviesList() {
   }, [])
 
   return (
-    <div className="movies">
-      <ul className="movies-list">{
-        allMovies.map((movie, i) => (
-          <Link to={`/${movie.id}`}>
-            <li key={i}>
-              <img src={ghibliImages[movie?.title!]} alt="img" />
-              <p>{movie.title}</p>
-            </li>
-          </Link>
-        ))
-      }
-      </ul>
-    </div>
+    <ul className="movies-list">{
+      allMovies.map((movie, i) => (
+        <Link to={`/${movie.id}`}>
+          <li key={i}>
+            <p>{movie.title}</p>
+            <img src={ghibliImages[movie?.title!]} alt="img" />
+          </li>
+        </Link>
+      ))
+    }
+    </ul>
   )
 }
