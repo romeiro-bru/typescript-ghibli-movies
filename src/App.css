@@ -10,3 +10,21 @@ body {
   text-align: -webkit-center;
   padding: 0 0 4rem 0rem;
 }
+
+.App h1 {
+  margin: 2rem 0 5rem 0;
+}
+
+.App h1:after {
+  position: absolute;
+  width: 8rem;
+  height: 1.5px;
+  bottom: 36.7rem;
+  left: 45%;
+  background-color: #ed145b;
+  content: "";
+}
+
+h1, h2 {
+  font-weight: 300;
+}
