@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a4e854dd.chunk.css",
+    "main.js": "/static/js/main.8bb5c6d4.chunk.js",
+    "main.js.map": "/static/js/main.8bb5c6d4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.31c22238.js",
+    "runtime-main.js.map": "/static/js/runtime-main.31c22238.js.map",
+    "static/js/2.d236a77b.chunk.js": "/static/js/2.d236a77b.chunk.js",
+    "static/js/2.d236a77b.chunk.js.map": "/static/js/2.d236a77b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a4e854dd.chunk.css.map": "/static/css/main.a4e854dd.chunk.css.map",
+    "static/js/2.d236a77b.chunk.js.LICENSE.txt": "/static/js/2.d236a77b.chunk.js.LICENSE.txt",
+    "static/media/baron.b2fe4572.jpg": "/static/media/baron.b2fe4572.jpg",
+    "static/media/chihiro.58694448.jpg": "/static/media/chihiro.58694448.jpg",
+    "static/media/ged.0cd9e4e7.jpg": "/static/media/ged.0cd9e4e7.jpg",
+    "static/media/hotarunohaka.8b3a3a11.jpg": "/static/media/hotarunohaka.8b3a3a11.jpg",
+    "static/media/howl.18e9cca8.jpg": "/static/media/howl.18e9cca8.jpg",
+    "static/media/kaguyahime.f2505f1a.jpg": "/static/media/kaguyahime.f2505f1a.jpg",
+    "static/media/karigurashi.f5481b41.jpg": "/static/media/karigurashi.f5481b41.jpg",
+    "static/media/kazetachinu.8bfaaeef.jpg": "/static/media/kazetachinu.8bfaaeef.jpg",
+    "static/media/kokurikozaka.7bfe392d.jpg": "/static/media/kokurikozaka.7bfe392d.jpg",
+    "static/media/laputa.9015bd1c.jpg": "/static/media/laputa.9015bd1c.jpg",
+    "static/media/majo.f42e85d6.jpg": "/static/media/majo.f42e85d6.jpg",
+    "static/media/marnie.905b0c69.jpg": "/static/media/marnie.905b0c69.jpg",
+    "static/media/mimi.ab7cf234.jpg": "/static/media/mimi.ab7cf234.jpg",
+    "static/media/mononoke.d21461a8.jpg": "/static/media/mononoke.d21461a8.jpg",
+    "static/media/omoide.b32b9c61.jpg": "/static/media/omoide.b32b9c61.jpg",
+    "static/media/ponyo.08e3e860.jpg": "/static/media/ponyo.08e3e860.jpg",
+    "static/media/porco.e17591b9.jpg": "/static/media/porco.e17591b9.jpg",
+    "static/media/red-turtle.c4625d29.jpg": "/static/media/red-turtle.c4625d29.jpg",
+    "static/media/tanuki.367f6ae5.jpg": "/static/media/tanuki.367f6ae5.jpg",
+    "static/media/totoro.133e174f.jpg": "/static/media/totoro.133e174f.jpg",
+    "static/media/yamada.1b054aeb.jpg": "/static/media/yamada.1b054aeb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.31c22238.js",
+    "static/js/2.d236a77b.chunk.js",
+    "static/css/main.a4e854dd.chunk.css",
+    "static/js/main.8bb5c6d4.chunk.js"
+  ]
+}
