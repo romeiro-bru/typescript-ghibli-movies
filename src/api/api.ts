@@ -21,10 +21,6 @@ import kaguya from '../assets/images/kaguyahime.jpg';
 import marnie from '../assets/images/marnie.jpg';
 import redturtle from '../assets/images/red-turtle.jpg';
 
-type ImagesProps = {
-    ghibliImages: string
-}
-
 export const api = axios.create({
     baseURL: "https://ghibliapi.herokuapp.com/"
 })
