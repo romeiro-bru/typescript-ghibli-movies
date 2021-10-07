@@ -30,14 +30,9 @@
     transition: 1s;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .movies-list {
         display: block;
+        grid-template-columns: auto auto auto;
     }
   }
-
-@media (min-width: 700px) {
-  .movies-list {
-    grid-template-columns: auto auto auto;
-  }
-}

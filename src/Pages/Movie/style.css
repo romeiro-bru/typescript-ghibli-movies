@@ -45,7 +45,7 @@
   text-align: left;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .movie-details {
       display: block;
   }
@@ -61,14 +61,5 @@
   .movie-description article {
     margin: 0.3rem 0.1rem ;
     text-align: left;
-  }
-}
-
-@media (min-width: 700px) {
-  .movie-details {
-    display: block;
-  }
-  .movie-img-title {
-    border-right: none;
   }
 }

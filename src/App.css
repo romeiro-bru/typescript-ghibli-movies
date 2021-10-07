@@ -33,7 +33,7 @@ h1, h2 {
   font-weight: 300;
 }
 
-@media (max-width: 823px) {
+@media (max-width: 768px) {
   .App h1:after {
    display: none;
   }  
