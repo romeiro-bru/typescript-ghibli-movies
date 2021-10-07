@@ -44,3 +44,31 @@
   margin: 1rem 4rem 0 4rem;
   text-align: left;
 }
+
+@media (max-width: 600px) {
+  .movie-details {
+      display: block;
+  }
+  .movie-img-title {
+    border-right: none;
+    margin-bottom: 2rem;
+    padding-right: 0.7rem;
+  }
+  .movie-img-title img:first-child {
+    margin: 0 0 0.2rem 3rem;
+  }
+
+  .movie-description article {
+    margin: 0.3rem 0.1rem ;
+    text-align: left;
+  }
+}
+
+@media (min-width: 700px) {
+  .movie-details {
+    display: block;
+  }
+  .movie-img-title {
+    border-right: none;
+  }
+}
