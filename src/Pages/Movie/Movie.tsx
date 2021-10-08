@@ -23,7 +23,7 @@ export const Movie = () => {
   useEffect(() => {
     const req = async () => {
       try {
-        const response = await api.get(`/films/${params.id}`)
+        const response = await api.get<MovieProps>(`/films/${params.id}`)
         setMovie(response.data)
       }
       catch (e) {
