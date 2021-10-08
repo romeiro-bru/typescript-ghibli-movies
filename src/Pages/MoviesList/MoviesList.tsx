@@ -29,12 +29,12 @@ export function MoviesList() {
   return (
     <ul className="movies-list">{
       allMovies.map((movie, i) => (
-        <Link to={`/${movie.id}`}>
-          <li key={i}>
+        <li key={i}>
+          <Link to={`/${movie.id}`}>
             <p>{movie.title}</p>
             <img src={ghibliImages[movie?.title!]} alt="img" />
-          </li>
-        </Link>
+          </Link>
+        </li>
       ))
     }
     </ul>

@@ -11,7 +11,7 @@ body {
 }
 
 .App h1 {
-  margin: 2rem 0 2rem 0;
+  margin: 2rem 0 3rem 0;
   color: lightgrey;;
 }
 
@@ -19,7 +19,7 @@ body {
   position: absolute;
   width: 8rem;
   height: 1.5px;
-  bottom: 36.7rem;
+  top: 4.8rem;
   left: 45%;
   background-color: #ed145b;
   content: "";
