@@ -12,7 +12,7 @@
   --bg-color: #fafafa;
   --text: #777;
   --primary-color: #ec4472;
-  --shadow: #b4b2b2;
+  --shadow: rgba(0, 0, 0, 0.31);
   --stroke: #D1D6EE;
   transition: all 0.55s linear;
 }

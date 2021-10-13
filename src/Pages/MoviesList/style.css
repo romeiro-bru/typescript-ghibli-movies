@@ -1,7 +1,7 @@
 .movies-list {
     align-items: end;
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto;
     list-style: none;
 }
 
@@ -16,9 +16,9 @@
 }
 
 .movies-list img {
-    width: 12.5rem;
-    border-radius: 8px;
-    box-shadow: 3px 3px 12px var(--shadow);
+    width: 11.3rem;
+    border-radius: 12px;
+    box-shadow: 0 1px 6px var(--shadow);
 }
 
 .movies-list img:hover {
@@ -29,13 +29,20 @@
 
 @media (max-width: 1058px) {
     .movies-list {
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: auto auto auto auto auto;
+    }
+
+    .movies-list img {
+        width: 10.8rem;
     }
   }
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
     .movies-list {
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto auto auto;
+    }
+    .movies-list img {
+        width: 10.5rem;
     }
   }
 

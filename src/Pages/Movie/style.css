@@ -5,9 +5,9 @@
 
 .movie-details img:nth-child(2) {
   height: 45vh;
-  border-radius: 8px;
+  border-radius: 12px;
   margin: 0 0.2rem 0 0.7rem;
-  box-shadow: 3px 3px 12px var(--shadow);
+  box-shadow: 0 1px 6px var(--shadow);
 }
 
 .movie-img-title {
@@ -19,7 +19,7 @@
   border: 1.3px solid var(--primary-color);
   text-align: center;
   margin-left: 1rem;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .movie-img-title span {
@@ -45,13 +45,17 @@
   text-align: left;
 }
 
-@media (max-width: 1058px) {
+@media (max-width: 1030px) {
   .movie-img-title {
     padding-right: 4rem;
   }
   .movie-description article {
-    margin: 1rem 0rem 0 3rem;
+    margin: 1rem 0rem 0 2rem;
   }
+  .movie-details img:nth-child(2) {
+    height: 39vh;
+    margin: 0 0.2rem 0 0.7rem;
+  }  
 }
 
 @media (max-width: 900px) {
