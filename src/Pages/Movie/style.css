@@ -7,7 +7,7 @@
   height: 45vh;
   border-radius: 8px;
   margin: 0 0.2rem 0 0.7rem;
-  box-shadow: 3px 3px 12px #000000;
+  box-shadow: 3px 3px 12px var(--shadow);
 }
 
 .movie-img-title {
@@ -16,7 +16,7 @@
 }
 
 .movie-img-title h2 {
-  border: 1.3px solid #ed145b;
+  border: 1.3px solid var(--primary-color);
   text-align: center;
   margin-left: 12px;
   border-radius: 5px;
@@ -24,7 +24,7 @@
 
 .movie-img-title span {
   margin: 0;
-  color: #ed145b;
+  color: var(--primary-color);
 }
 .movie-img-title img:first-child {
   width: 1.7rem;
@@ -37,7 +37,7 @@
 }
 
 .movie-description h3:nth-child(2) {
-  color: #ed145b;
+  color: var(--primary-color);
 }
 
 .movie-description article {
