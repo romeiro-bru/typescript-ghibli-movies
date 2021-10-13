@@ -8,6 +8,7 @@
 * Pick a movie to check info about it
 
 ## Technologies :mag_right:
+* TypeScript 🔮💆
 * React :atom:
 * Css :nail_care:
 
