@@ -110,3 +110,10 @@
     transform: rotate(-30deg) translateX(13.5px) translateY(8px);
   }
 }
+
+@media (max-width: 768px) {
+  .heart-switch {
+    margin-bottom: 0.3rem;
+  }
+}
+
