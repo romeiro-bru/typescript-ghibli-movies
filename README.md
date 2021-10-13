@@ -3,7 +3,7 @@
 > Pick a movie to check info about it
 
 <p  align="left">
-<img  src="https://media.giphy.com/media/Mbq13NNZn0J7a/giphy.gif?cid=790b761167844d4788a2547daa934605f90eff7e37ede823&rid=giphy.gif&ct=g"  height="170" alt="ghibli">
+<img  src="https://media.giphy.com/media/dEdgB3euossMg/giphy.gif"  height="170" alt="ghibli">
 </p>
 
 ## Technologies :mag_right:
