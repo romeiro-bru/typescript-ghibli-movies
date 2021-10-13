@@ -1,9 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap');
 
+:root {
+  --bg-color: #0d1117;
+  --text: lightgrey;
+  --primary-color: #ec4472;
+  --shadow: #000000;
+  --stroke: #D1D6EE;
+}
+
+.light-mode {
+  --bg-color: #fafafa;
+  --text: #777;
+  --primary-color: #ec4472;
+  --shadow: #b4b2b2;
+  --stroke: #D1D6EE;
+  transition: all 0.55s linear;
+}
+
 body {
-  background:#0d1117;
-  color: lightgrey;
+  margin: 0;
+  background: var(--bg-color);
+  color: var(--text);
   font-family: "Poppins";
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
 }
 
 .App {
@@ -12,7 +35,7 @@ body {
 
 .App h1 {
   margin: 2rem 0 3rem 0;
-  color: lightgrey;;
+  color: var(--text);
 }
 
 .App h1:after {
@@ -20,8 +43,8 @@ body {
   width: 8rem;
   height: 1.5px;
   top: 4.8rem;
-  left: 45%;
-  background-color: #ed145b;
+  left: 23%;
+  background-color: var(--primary-color);
   content: "";
 }
 
