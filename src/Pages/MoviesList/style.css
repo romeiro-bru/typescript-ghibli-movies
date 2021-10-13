@@ -12,13 +12,13 @@
 .movies-list p {
     max-width: 11.6rem;
     margin-bottom: 0.5rem;
-    color: lightgrey;
+    color: var(--text);
 }
 
 .movies-list img {
     width: 12.5rem;
     border-radius: 8px;
-    box-shadow: 3px 3px 12px #000000;
+    box-shadow: 3px 3px 12px var(--shadow);
 }
 
 .movies-list img:hover {
