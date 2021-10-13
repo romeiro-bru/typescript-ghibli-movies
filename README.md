@@ -12,7 +12,7 @@
 * Css :nail_care:
 
 ## Api Reference
-[STUDIO GHIBLI API](https://ghibliapi.herokuapp.com/) documentation
+The [Studio Ghibli API](https://ghibliapi.herokuapp.com/) catalogs the people, places, and things found in the worlds of Ghibli.
 
 
 ## Installing / Getting started 👨‍🏭
