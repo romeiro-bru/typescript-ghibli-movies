@@ -9,7 +9,7 @@ const MainPage = () => <MoviesList />
 
 const Icon = () => {
   return (
-    <a href="https://github.com/romeiro-bru" target="_blank" rel="noopener noreferrer">
+    <a href="https://github.com/romeiro-bru/typescript-ghibli-movies" target="_blank" rel="noopener noreferrer">
       <img className="github" src={github} alt="icon" />
     </a>
   )
