@@ -6,6 +6,9 @@
 <img  src="https://media.giphy.com/media/dEdgB3euossMg/giphy.gif"  height="170" alt="ghibli">
 </p>
 
+## Features 👾
+* Toggle Light/Dark mode
+
 ## Technologies :mag_right:
 * TypeScript 🔮🧙
 * React :atom:
