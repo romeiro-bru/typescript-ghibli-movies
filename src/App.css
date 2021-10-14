@@ -7,6 +7,7 @@
   --shadow: #000000;
   --stroke: #D1D6EE;
   --opacity: 0.5;
+  transition: all 0.55s linear;
 }
 
 .light-mode {
@@ -21,15 +22,26 @@
 
 body {
   margin: 0;
+  padding: 0 3.8rem 0 2rem;
   background: var(--bg-color);
   color: var(--text);
   font-family: "Poppins";
 }
 
-.App {
+.App{
   text-align: -webkit-center;
 }
 
 h1, h2 {
   font-weight: 300;
+}
+
+.github {
+  width: 2rem;
+  opacity: 0.4;
+}
+
+.github:hover {
+  opacity: 0.8;
+  transition: 1s;
 }
