@@ -1,18 +1,26 @@
-## STUDIO GHIBLI MOVIES 🌰 🌱 🌳
+<h1 align="center"> Studio Ghibli Movies </h1>
 
-<p  align="center">
-<img  src="https://media.giphy.com/media/Mbq13NNZn0J7a/giphy.gif?cid=790b761167844d4788a2547daa934605f90eff7e37ede823&rid=giphy.gif&ct=g"  height="190" alt="ghibli">
-</p>
+> Pick a movie to check info about it
 
-## Features 👾 
-* Pick a movie to check info about it
+<span  align="left">
+  <img  src="https://media.giphy.com/media/dEdgB3euossMg/giphy.gif"  height="140" alt="ghibli">
+</span>
+<br>
+
+## Features 👾
+* Toggle Light/Dark mode
 
 ## Technologies :mag_right:
-* React :atom:
-* Css :nail_care:
+* TypeScript
+* React
+* Css 
 
 ## Api Reference
-[STUDIO GHIBLI API](https://ghibliapi.herokuapp.com/) documentation
+The [Studio Ghibli API](https://ghibliapi.herokuapp.com/) catalogs the people, places, and things found in the worlds of Ghibli.
+
+## Useful resources
+* [Toggle Dark/Light Mode](https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp)
+* [classList Property](https://www.w3schools.com/jsref/prop_element_classlist.asp) 
 
 
 ## Installing / Getting started 👨‍🏭
@@ -23,7 +31,7 @@ Prerequisite to run the following commands <strong>[Node.js](https://nodejs.org/
 <br>
 ```
 git clone https://github.com/romeiro-bru/typescript-ghibli-movies.git
-yarn install
+yarn
 ```
 
 Run in the project directory ```yarn start```
