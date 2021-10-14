@@ -7,6 +7,14 @@ import github from './assets/images/github.png';
 
 const MainPage = () => <MoviesList />
 
+const Icon = () => {
+  return (
+    <a href="https://github.com/romeiro-bru" target="_blank" rel="noopener noreferrer">
+      <img className="github" src={github} alt="icon" />
+    </a>
+  )
+}
+
 function App() {
 
   return (
@@ -18,9 +26,7 @@ function App() {
           <Route path="/:id" component={Movie} />
         </Switch>
       </BrowserRouter>
-      <a href="https://github.com/romeiro-bru" target="_blank" rel="noopener noreferrer">
-        <img className="github" src={github} alt="icon" />
-      </a>
+      <Icon />
     </div>
   );
 }
