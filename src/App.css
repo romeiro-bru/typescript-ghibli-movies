@@ -39,9 +39,16 @@ h1, h2 {
 .github {
   width: 2rem;
   opacity: 0.4;
+  margin: 1.5rem 0;
 }
 
 .github:hover {
   opacity: 0.8;
   transition: 1s;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 0 1rem 0 0;
+  }
 }
