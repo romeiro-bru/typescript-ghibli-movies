@@ -10,6 +10,16 @@
   transition: all 0.55s linear;
 }
 
+.dark-mode {
+  --bg-color: #0d1117;
+  --text: lightgrey;
+  --primary-color: #ec4472;
+  --shadow: #000000;
+  --stroke: #D1D6EE;
+  --opacity: 0.5;
+  transition: all 0.55s linear;
+}
+
 .light-mode {
   --bg-color: #fafafa;
   --text: #777;
@@ -22,7 +32,7 @@
 
 body {
   margin: 0;
-  padding: 0 3.8rem 0 2rem;
+  padding: 0 3.8rem 2rem 2rem;
   background: var(--bg-color);
   color: var(--text);
   font-family: "Poppins";
@@ -38,8 +48,10 @@ h1, h2 {
 
 .github {
   width: 2rem;
+  position: fixed;
+  bottom: 1rem;
+  right: 1.3rem;
   opacity: 0.4;
-  margin: 1.5rem 0;
 }
 
 .github:hover {
