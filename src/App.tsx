@@ -18,7 +18,7 @@ function App() {
           <Route path="/:id" component={Movie} />
         </Switch>
       </BrowserRouter>
-      <a href="https://github.com/romeiro-bru" target="_blank">
+      <a href="https://github.com/romeiro-bru" target="_blank" rel="noopener noreferrer">
         <img className="github" src={github} alt="icon" />
       </a>
     </div>

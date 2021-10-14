@@ -7,7 +7,6 @@
   --shadow: #000000;
   --stroke: #D1D6EE;
   --opacity: 0.5;
-  transition: all 0.55s linear;
 }
 
 .dark-mode {
