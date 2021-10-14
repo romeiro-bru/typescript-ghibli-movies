@@ -35,7 +35,7 @@ export const Movie = () => {
   }, [params.id])
 
   return (
-    <div className="movie-details">
+    <main className="movie-details">
       <div className="movie-img-title">
         <Link to="/">
           <img src={arrow} alt="" />
@@ -52,6 +52,6 @@ export const Movie = () => {
         <h3>{movie?.original_title_romanised}</h3>
         <article>{movie?.description}</article>
       </div>
-    </div>
+    </main>
   )
 }
