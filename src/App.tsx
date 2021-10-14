@@ -3,6 +3,7 @@ import './App.css';
 import { MoviesList } from './Pages/MoviesList/MoviesList';
 import { Movie } from './Pages/Movie/Movie';
 import { Header } from './Components/Header/Header';
+import github from './assets/images/github.png';
 
 const MainPage = () => <MoviesList />
 
@@ -17,6 +18,9 @@ function App() {
           <Route path="/:id" component={Movie} />
         </Switch>
       </BrowserRouter>
+      <a href="https://github.com/romeiro-bru" target="_blank">
+        <img className="github" src={github} alt="icon" />
+      </a>
     </div>
   );
 }
