@@ -1,4 +1,4 @@
-## STUDIO GHIBLI MOVIES 🌰 🌱 🌳
+## Studio Ghibli Movies
 
 > Pick a movie to check info about it
 
