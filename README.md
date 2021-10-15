@@ -34,7 +34,8 @@ in one of my projects, I therefore decided to implement it in this project while
 one more new layer in Javascript world.
 
 ## What I Learned
-* How to add a class to body and how to toggle between classes.
+* How to add a class to an element using classList property
+* How to toggle between classes
 
 ```javascript
 document.body.classList.remove("dark-mode")
