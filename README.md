@@ -31,6 +31,14 @@ in one of my projects, I therefore decided to implement it in this project while
 <br>
 one more new layer in Javascript world.
 
+## What I learned
+* How to add a class to body and how to toggle between classes.
+
+```javascript
+document.body.classList.remove("dark-mode")
+document.body.classList.add("light-mode")
+```
+
 ## Installing / Getting started 👨‍🏭
 
 Prerequisite to run the following commands <strong>[Node.js](https://nodejs.org/en/download/)</strong>, 
