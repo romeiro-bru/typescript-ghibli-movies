@@ -18,10 +18,11 @@
 ## Api Reference
 The [Studio Ghibli API](https://ghibliapi.herokuapp.com/) catalogs the people, places, and things found in the worlds of Ghibli.
 
-## Useful resources
+## Sources
 * [Toggle Dark/Light Mode](https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp)
 * [classList Property](https://www.w3schools.com/jsref/prop_element_classlist.asp) 
 * [Advanced Types - Typescript](https://www.typescriptlang.org/docs/handbook/advanced-types.html)
+* [CSS Heart Switch](https://codepen.io/aaroniker/pen/PowbEKp)
 
 ## Why?
 Over the past few years, TypeScript has gain massive popularity among frontend developers.
@@ -32,7 +33,7 @@ in one of my projects, I therefore decided to implement it in this project while
 <br>
 one more new layer in Javascript world.
 
-## What I learned
+## What I Learned
 * How to add a class to body and how to toggle between classes.
 
 ```javascript
