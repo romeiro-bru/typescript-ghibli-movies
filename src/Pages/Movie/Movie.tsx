@@ -40,9 +40,9 @@ export const Movie = () => {
         <Link to="/">
           <img src={arrow} alt="" />
         </Link>
-
-        <img src={ghibliImages[movie?.title!]} alt="img" />
-
+        {ghibliImages[movie?.title!] && (
+          <img src={ghibliImages[movie?.title!]} alt="img" />
+        )}
         <h2>{movie?.title}</h2>
         <span>{movie?.release_date}</span>
       </div>
