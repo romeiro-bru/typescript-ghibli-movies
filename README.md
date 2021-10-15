@@ -21,6 +21,7 @@ The [Studio Ghibli API](https://ghibliapi.herokuapp.com/) catalogs the people, p
 ## Useful resources
 * [Toggle Dark/Light Mode](https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp)
 * [classList Property](https://www.w3schools.com/jsref/prop_element_classlist.asp) 
+* [Null vs Undefined - Typescript](https://basarat.gitbook.io/typescript/recap/null-undefined)
 
 ## Why?
 Over the past few years, TypeScript has gain massive popularity among frontend developers.
@@ -37,6 +38,14 @@ one more new layer in Javascript world.
 ```javascript
 document.body.classList.remove("dark-mode")
 document.body.classList.add("light-mode")
+```
+<br>
+
+* TypeScript has a special syntax for removing null and undefined from a type.
+* If you are sure that these objects or fields exist, the postfix <strong>!</strong> lets you short circuit the nullability.
+
+```javascript
+<img src={ghibliImages[movie?.title!]} alt="img" />
 ```
 
 ## Installing / Getting started 👨‍🏭
