@@ -18,7 +18,7 @@
 ## Api Reference
 The [Studio Ghibli API](https://ghibliapi.herokuapp.com/) catalogs the people, places, and things found in the worlds of Ghibli.
 
-## Sources
+## Links
 * [Toggle Dark/Light Mode](https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp)
 * [classList Property](https://www.w3schools.com/jsref/prop_element_classlist.asp) 
 * [Advanced Types - Typescript](https://www.typescriptlang.org/docs/handbook/advanced-types.html)
