@@ -21,7 +21,7 @@ The [Studio Ghibli API](https://ghibliapi.herokuapp.com/) catalogs the people, p
 ## Links
 * [Toggle Dark/Light Mode](https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp)
 * [classList Property](https://www.w3schools.com/jsref/prop_element_classlist.asp) 
-* [Advanced Types - Typescript](https://www.typescriptlang.org/docs/handbook/advanced-types.html)
+* [Defining Types - Typescript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html#defining-types)
 * [CSS Heart Switch](https://codepen.io/aaroniker/pen/PowbEKp)
 
 ## Why?
