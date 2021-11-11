@@ -1,6 +1,8 @@
 <h1 align="center"> Studio Ghibli Movies </h1>
 
 > Pick a movie to check info about it
+> <br>
+> [Deploy do projeto](https://typescript-ghibli-movies.netlify.app/)
 
 <span  align="left">
   <img  src="https://media.giphy.com/media/dEdgB3euossMg/giphy.gif"  height="135" alt="ghibli">
