@@ -1,8 +1,14 @@
 <h1 align="center"> Studio Ghibli Movies </h1>
 
-> Pick a movie to check info about it
-> <br>
+<p>
+  <img  src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"  height="25" alt="html">
+  <img  src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"  height="25" alt="css">
+  <img  src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"  height="25" alt="typescript">
+</p>
+
 > [Deploy do projeto](https://typescript-ghibli-movies.netlify.app/)
+
+> Pick a movie to check info about it
 
 <span  align="left">
   <img  src="https://media.giphy.com/media/dEdgB3euossMg/giphy.gif"  height="135" alt="ghibli">
