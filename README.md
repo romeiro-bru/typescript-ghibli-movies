@@ -22,7 +22,6 @@
 ## Technologies :mag_right:
 * TypeScript
 * React
-* Css 
 
 ## Api Reference
 The [Studio Ghibli API](https://ghibliapi.herokuapp.com/) catalogs the people, places, and things found in the worlds of Ghibli.
@@ -31,7 +30,6 @@ The [Studio Ghibli API](https://ghibliapi.herokuapp.com/) catalogs the people, p
 * [Toggle Dark/Light Mode](https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp)
 * [classList Property](https://www.w3schools.com/jsref/prop_element_classlist.asp) 
 * [Defining Types - Typescript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html#defining-types)
-* [CSS Heart Switch](https://codepen.io/aaroniker/pen/PowbEKp)
 
 ## Why?
 Over the past few years, TypeScript has gain massive popularity among frontend developers.
