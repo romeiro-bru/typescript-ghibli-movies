@@ -31,24 +31,6 @@ The [Studio Ghibli API](https://ghibliapi.herokuapp.com/) catalogs the people, p
 * [classList Property](https://www.w3schools.com/jsref/prop_element_classlist.asp) 
 * [Defining Types - Typescript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html#defining-types)
 
-## Why?
-Over the past few years, TypeScript has gain massive popularity among frontend developers.
-<br>
-At the same time, as an admire of Ghibli movies I really wanted to use the Studio Ghibli API
-<br>
-in one of my projects, I therefore decided to implement it in this project while exploring
-<br>
-one more new layer in Javascript world.
-
-## What I Learned
-* How to add a class to an element using classList property
-* How to toggle between classes
-
-```javascript
-document.body.classList.remove("dark-mode")
-document.body.classList.add("light-mode")
-```
-<br>
 
 ## Installing / Getting started 👨‍🏭
 
