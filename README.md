@@ -7,7 +7,7 @@
   <img  src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"  height="25" alt="typescript">
 </p>
 
-> [Deploy do projeto](https://typescript-ghibli-movies.netlify.app/)
+> [Deployed project](https://typescript-ghibli-movies.netlify.app/)
 
 > Pick a movie to check info about it
 
