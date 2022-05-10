@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { api } from '../../api/api';
 import './style.css';
-import { ghibliImages } from '../../api/api';
 import arrow from '../../assets/images/left-arrow.png';
 
 
@@ -13,6 +12,7 @@ type MovieProps = {
   original_title_romanised: string;
   description: string;
   release_date: string;
+  image: string;
   id: string;
 }
 
@@ -40,9 +40,7 @@ export const Movie = () => {
         <Link to="/">
           <img src={arrow} alt="" />
         </Link>
-
-        <img src={ghibliImages[movie?.title!]} alt="img" />
-
+        <img src={movie?.image} alt="img" />
         <h2>{movie?.title}</h2>
         <span>{movie?.release_date}</span>
       </div>
