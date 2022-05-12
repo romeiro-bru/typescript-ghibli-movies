@@ -21,11 +21,7 @@
 ## Features 👾
 * Toggle Light/Dark mode
 
-## Technologies :mag_right:
-* TypeScript
-* React
-
-## Api Reference
+## Api Documentation
 The [Studio Ghibli API](https://ghibliapi.herokuapp.com/) catalogs the people, places, and things found in the worlds of Ghibli.
 
 ## Links
