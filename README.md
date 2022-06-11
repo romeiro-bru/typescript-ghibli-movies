@@ -11,7 +11,7 @@
 
 > [Deployed project](https://typescript-ghibli-movies.netlify.app/)
 
-> Pick a movie to check info about it
+> It is a movie library where you can check out each movie info
 
 <span  align="left">
   <img  src="https://media.giphy.com/media/dEdgB3euossMg/giphy.gif"  height="135" alt="ghibli">
